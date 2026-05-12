@@ -13,7 +13,6 @@
   align-items: center;
 }
 
-/* Buttons - modern pill style */
 .toolbar button {
   padding: 8px 12px;
   border-radius: 10px;
@@ -42,7 +41,6 @@
   transform: scale(0.96);
 }
 
-/* VIDEO PREVIEW */
 .preview {
   position: relative;
   width: 100%;
@@ -62,7 +60,6 @@
   justify-content: center;
 }
 
-/* overlay for text/stickers */
 .overlay {
   position: absolute;
   inset: 0;
@@ -70,7 +67,6 @@
   pointer-events: auto;
 }
 
-/* empty state */
 .preview > div {
   color: #b0b0b0;
   font-size: 14px;

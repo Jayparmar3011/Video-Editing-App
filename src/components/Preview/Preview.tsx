@@ -35,7 +35,6 @@ const Preview = () => {
 
   return (
     <div>
-      {/* Toolbar */}
       <div className={styles.toolbar}>
         <button
           onClick={() =>
@@ -86,7 +85,6 @@ const Preview = () => {
         </button>
       </div>
 
-      {/* Preview */}
       <div className={styles.preview}>
         {videoUrl ? (
           <>
@@ -124,7 +122,6 @@ const Preview = () => {
               }}
             />
 
-            {/* Text Overlay */}
             <div
               className={
                 styles.overlay

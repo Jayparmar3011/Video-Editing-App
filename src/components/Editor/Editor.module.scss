@@ -13,13 +13,11 @@
   overflow: hidden;
 }
 
-/* LEFT SIDEBAR already handled elsewhere but giving structure feel */
 .sidebar {
   background: rgba(255, 255, 255, 0.03);
   border-right: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* RIGHT CONTENT AREA */
 .content {
   flex: 1;
   padding: 18px;
@@ -32,7 +30,6 @@
   background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
 }
 
-/* Upload state */
 .uploadWrapper {
   flex: 1;
   display: flex;
@@ -49,7 +46,6 @@
   background: rgba(255, 255, 255, 0.03);
 }
 
-/* TOOL PANEL (bottom editor section) */
 .toolPanel {
   flex: 1;
   min-height: 180px;
@@ -65,7 +61,6 @@
   backdrop-filter: blur(12px);
 }
 
-/* empty state */
 .emptyTool {
   color: #9a9a9a;
   font-size: 14px;

@@ -55,12 +55,10 @@ const TrimControls = () => {
   return (
     <div className={style.wrapper}>
 
-      {/* LEFT TOOL ICON */}
       <div className={style.left}>
         ✂
       </div>
 
-      {/* CENTER TIMELINE */}
       <div className={style.center}>
 
         <div className={style.timeRow}>
@@ -79,7 +77,6 @@ const TrimControls = () => {
           <span>{end}s</span>
         </div>
 
-        {/* hidden but functional sliders */}
         <div className={style.sliders}>
           <input
             type="range"
@@ -100,7 +97,6 @@ const TrimControls = () => {
 
       </div>
 
-      {/* RIGHT ACTION */}
       <div className={style.right}>
         <button
           onClick={handleTrim}

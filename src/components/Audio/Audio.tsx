@@ -147,7 +147,6 @@ const Audio = () => {
         />
       </label>
 
-      {/* Show selected file name */}
       {audioName && (
         <p
           className={

@@ -73,10 +73,8 @@ const Editor = () => {
           styles.main
         }
       >
-        {/* LEFT SIDEBAR */}
         <Sidebar />
 
-        {/* RIGHT CONTENT */}
         <div
           className={
             styles.content
