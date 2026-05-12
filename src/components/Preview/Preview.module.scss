@@ -1,0 +1,78 @@
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 10px;
+
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+
+  backdrop-filter: blur(12px);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Buttons - modern pill style */
+.toolbar button {
+  padding: 8px 12px;
+  border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(145deg, #1b1b24, #121218);
+
+  color: #e6e6e6;
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.toolbar button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(145deg, #2a2a35, #181822);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.6);
+}
+
+.toolbar button:active {
+  transform: scale(0.96);
+}
+
+/* VIDEO PREVIEW */
+.preview {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+
+  background: radial-gradient(circle at center, #0d0d10 0%, #000 100%);
+  border-radius: 16px;
+
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* overlay for text/stickers */
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: auto;
+}
+
+/* empty state */
+.preview > div {
+  color: #b0b0b0;
+  font-size: 14px;
+  text-align: center;
+}
